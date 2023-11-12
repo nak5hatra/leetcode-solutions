@@ -10,7 +10,7 @@ class Solution {
         return temp;
         
     }
-    static int getEvenNums(int num){
+    int getEvenNums(int num){
         int temp = 0;
         while (num > 0){
             num = num / 10;
